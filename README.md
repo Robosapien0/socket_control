@@ -1,6 +1,8 @@
 socket_control
 --------------
 
+Made a few changes to work with Python 3
+
 A tiny web app to run on a Raspberry Pi with a
 [pimote](https://energenie4u.co.uk/index.php/catalogue/product/ENER002-2PI) to
 seperately control up to four energenie4u RC power sockets, from a mobile
@@ -13,8 +15,8 @@ Follow these instructions to get started with the energenie RC sockets and
 Pimote Raspberry Pi Extension.
 
     # fetch dependencies
-    sudo apt-get install python-rpi.gpio
-    sudo apt-get install python-pip
+    sudo apt-get install python3-rpi.gpio
+    sudo apt-get install python3-pip
     pip install bottle pytz ics
 
     # get socket_control
