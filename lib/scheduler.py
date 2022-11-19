@@ -4,7 +4,7 @@ from time import sleep
 from datetime import datetime, timedelta
 from threading import Thread
 from ics import Calendar
-from urllib2 import urlopen
+from urllib.request import urlopen
 
 
 class Scheduler(object):
