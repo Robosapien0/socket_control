@@ -1,5 +1,5 @@
-import pimote
-from scheduler import Scheduler
+from . import pimote
+from .scheduler import Scheduler
 
 
 class SocketController(object):
